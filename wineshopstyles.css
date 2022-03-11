@@ -1,0 +1,659 @@
+  @media screen and (max-width: 800px) {
+      .person_container {
+          flex-wrap: wrap;
+      }
+
+      .person_container img {
+          min-width: 25vw;
+      }
+
+      .course_container {
+          flex-wrap: wrap;
+      }
+
+
+  }
+
+
+  .search_up {
+      position: fixed;
+      right: 2vmax;
+      overflow: hidden;
+      z-index: 1;
+      background-color: hsla(347, 87%, 100%, 0.21);
+      padding: 0.5em;
+
+  }
+
+  .search_up img {
+      max-width: 30px;
+      filter: opacity(65%);
+      display: inline-block;
+      padding: 0 .5em;
+  }
+
+
+
+
+
+
+  #logo {
+      font-family: 'Rozha One', serif;
+      text-align: center;
+      font-size: 35px;
+      color: hsla(347, 87%, 24%, 1);
+      text-shadow: 2px 2px 0px white,
+          4px 4px 0px black,
+          8px 8px 0px rgb(196, 150, 66);
+      display: block;
+      width: 100%;
+
+
+  }
+
+  #logo img {
+      width: 100px;
+      margin: 0 auto;
+      margin-bottom: .1em;
+      padding: 0;
+      position: relative;
+      top: 60px;
+      filter: drop-shadow(4px 4px 1px rgb(196, 150, 66));
+  }
+
+  #logo h1 {
+      margin-top: 0;
+      padding-top: .1em;
+      margin-bottom: .3em;
+      letter-spacing: .08em;
+  }
+
+
+
+
+
+  #mainNav {
+      margin-bottom: 1.5em;
+      margin-top: .1em;
+      font-family: 'Roboto',
+          sans-serif;
+      font-size: 22px;
+  }
+
+
+  #mainNav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      color: rgb(196, 150, 66);
+
+
+  }
+
+  #mainNav li {
+
+      flex-direction: row;
+      padding: 0em;
+      padding: .3em 1em;
+      margin: 0 auto;
+      text-decoration: none;
+      font-weight: bold;
+  }
+
+  .mainNavLink {
+      text-decoration: none;
+      color: rgb(196, 150, 66);
+
+  }
+
+  .mainNavLink:visited {
+      text-decoration: overline;
+      color: rgb(196, 150, 66);
+  }
+
+  .mainNavLink:hover {
+      color: hsla(347, 87%, 24%, 1);
+
+
+  }
+
+
+
+
+
+  .reserve_field {
+      display: block;
+      font-family: 'Roboto',
+          sans-serif;
+  }
+
+
+  .persontestim {
+
+      display: flex;
+      justify-content: center;
+
+
+  }
+
+  .about_container {
+      position: relative;
+      text-align: left;
+      
+
+  }
+
+  .about {
+      position: absolute;
+      left: 6vmax;
+      top: 15vmax;
+      font-size: 25px;
+      font-family: 'Roboto', sans-serif;
+      color: white;
+      padding: 1em 2em;
+      background-color: hsla(0, 59%, 41%, 0.95);
+      box-shadow: 12px 12px 0px hsla(49, 100%, 82%, 0.95);
+      ;
+  }
+
+  .reserve_btn {
+      padding: 1em;
+      text-align: center;
+
+  }
+
+  .reserve_btn button {
+      padding: 1em 2em;
+      background-color: rgb(196, 150, 66);
+      border: none;
+      border-radius: 12em;
+      box-shadow: 2px 2px 0px 1px hsla(347, 87%, 24%, 1);
+      transition: 1s all ease-in-out;
+  }
+
+  .reserve_btn button:hover {
+      background-color: hsla(49, 100%, 82%, 1);
+      border: none;
+      border-radius: 12em;
+      box-shadow: 0 0 25px 5px hsla(347, 87%, 24%, 1);
+  }
+
+  .reserve_btn a {
+      text-decoration: none;
+      color: white;
+      font-family: 'Roboto', sans-serif;
+      font-size: 1.5em;
+      transition: 1s all ease-in-out;
+  }
+
+  .reserve_btn a:hover {
+      color: hsla(347, 87%, 24%, 1)
+  }
+
+  .about_pic{
+      width: 100%;
+      
+
+  }
+
+
+
+  #wines {
+      margin: 5em auto;
+      width: 60vmax;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+  }
+
+  #wines h2 {
+      color: rgb(196, 150, 66);
+      font-size: 2em;
+      font-family: 'Rozha One',
+          serif;
+      font-weight: lighter;
+  }
+
+  #wines p {
+      font-size: 1.3em;
+      width: 60vmax;
+      text-align: left;
+      line-height: 140%;
+  }
+
+
+  .wine_container {
+      display: flex;
+      justify-content: space-around;
+      font-family: 'Roboto',
+          sans-serif;
+  }
+
+  .otherWines {
+      text-align: right;
+      padding: .3em;
+      color: rgb(196, 150, 66);
+      font-size: 1.2em;
+      font-weight: lighter;
+
+
+
+  }
+
+  .otherWines:hover {
+      color: hsla(347, 87%, 24%, 1)
+  }
+
+
+
+
+
+
+  .person_container {
+      display: flex;
+      width: 40vw;
+      justify-content: space-around;
+      font-family: 'Roboto',
+          sans-serif;
+      align-items: center;
+      background-color: rgb(255, 255, 255);
+
+
+      border-radius: .3em;
+  }
+
+
+
+  .alumni img {
+      width: 12vw;
+      margin: 1em;
+      border-radius: 50%;
+      padding: .3em;
+      border: hsla(347, 87%, 24%, 1) 1px solid;
+      box-shadow: 5px 10px 0px 6px rgb(196, 150, 66),
+          -5px -10px 0px 6px hsla(0, 59%, 41%, 0.95);
+
+
+  }
+
+  .alumni_text {
+      margin: 1em;
+      line-height: 160%;
+      text-align: left;
+      padding: .5em;
+      color: hsla(347, 87%, 24%, 1);
+
+  }
+
+  .otherAlumni {
+      text-align: center;
+      padding: .3em;
+      color: rgb(196, 150, 66);
+      font-size: 1.2em;
+      font-weight: lighter;
+      margin: 2em;
+      transition: 1s all ease-in-out;
+      font-family: 'Roboto',
+          sans-serif;
+  }
+
+  .otherAlumni:hover {
+      color: hsla(347, 87%, 24%, 1);
+      cursor: pointer;
+  }
+
+  .alumni_name:hover {
+      color: peru;
+  }
+
+  .testimonials {
+      font-size: 2em;
+      color: rgb(196, 150, 66);
+      ;
+      font-family: 'Rozha One',
+          serif;
+      font-weight: lighter;
+
+
+
+  }
+
+  #testimonial {
+      margin-top: 8em;
+      margin-bottom: 4em;
+  }
+
+
+
+
+
+
+  .winestyle img {
+      max-height: 50vh;
+      transition: .3s all ease-in-out;
+      filter: drop-shadow(2px 2px 2px rgba(56, 1, 13, 0.7));
+
+
+  }
+
+  .winestyle:hover img {
+      filter: grayscale(0%);
+      animation: shakeIt 3s;
+      animation-iteration-count: 1;
+      filter: drop-shadow(2px 2px 6px rgba(56, 1, 13, 0.7));
+
+  }
+
+
+
+
+  .reservation {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+
+  }
+
+  .reservation h3 {
+      font-size: 2em;
+      color: rgb(196, 150, 66);
+
+      font-family: 'Rozha One',
+          serif;
+      font-weight: lighter;
+  }
+
+
+
+  .reservation p,
+  label,
+  h5 {
+      font-size: 1.2em;
+      font-family: 'Roboto',
+          sans-serif;
+      color: rgb(196, 150, 66);
+      font-weight: lighter;
+
+
+  }
+
+  .reservation label {
+      margin: .4em auto;
+      display: block;
+      width: 30vmax;
+  }
+
+  .reservation input {
+      width: 30vmax;
+      display: block;
+      margin: 1em auto;
+      background-color: hsla(48, 50%, 96%, 0.95);
+      border: none;
+      font-size: .9em;
+  }
+
+
+
+  #wines {
+      font-family: 'Roboto',
+          sans-serif;
+  }
+
+  ::-webkit-input-placeholder {
+      color: rgb(190, 177, 151);
+  }
+
+  :-ms-input-placeholder {
+      color: rgb(190, 177, 151);
+  }
+
+  ::-moz-placeholder {
+      color: rgb(190, 177, 151);
+  }
+
+  ::placeholder {
+      color: rgb(190, 177, 151);
+  }
+
+  .hours button {
+      background-color: rgb(196, 150, 66);
+      border: none;
+      border-radius: 0.3em;
+      padding: 0.2em .8em;
+      display: inline-block;
+      margin: 0 .2em;
+      color: white;
+      font-family: 'Roboto',
+          sans-serif;
+      font-size: 1em;
+      transition: all 1s ease-in-out;
+  }
+
+  .hours button:hover {
+      background-color: rgba(56, 1, 13, 1);
+      transform: scale(1.2);
+      cursor: pointer;
+      box-shadow: 2px 2px 6px rgba(56, 1, 13, 0.3);
+
+  }
+
+  .hours h5 {
+      margin-bottom: .1em;
+  }
+
+  .hours {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      margin-bottom: 2em;
+  }
+
+  .confirm {
+      background-color: rgb(196, 150, 66);
+      border: none;
+      border-radius: 0.3em;
+      color: white;
+      font-family: 'Roboto',
+          sans-serif;
+      padding: .5em 1em;
+      font-size: 1.2em;
+      margin: 1em 0;
+      transition: all 1s ease-in-out;
+      margin-bottom: 3em;
+  }
+
+  .confirm:hover {
+      background-color: rgba(56, 1, 13, 1);
+      cursor: pointer;
+      box-shadow: 2px 2px 6px rgba(56, 1, 13, 0.3);
+  }
+
+  .checkbox {
+      font-size: .8em;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 30vmax;
+  }
+
+
+
+
+
+
+  .course_width {
+      width: 60vmax;
+      margin: 0 auto;
+  }
+
+  .course_section {
+
+      width: 100%;
+      justify-content: center;
+  }
+
+
+  .coursesList li {
+      font-family: 'Roboto',
+          sans-serif;
+      font-size: 25px;
+      color: rgb(196, 150, 66);
+      line-height: 200%;
+      margin-left: 2.5em;
+      transition: all 1s ease-in-out;
+      margin-left: 2em;
+  }
+
+  .coursesList li:hover {
+      color: hsla(347, 87%, 24%, 1);
+      transform: scale(1.05);
+      cursor: pointer;
+
+  }
+
+  .coursesList ul {
+      list-style: square;
+      padding: 0;
+      justify-content: left;
+
+
+  }
+
+
+
+  .course_container {
+
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+
+      padding-bottom: 4em;
+
+  }
+
+  .coursesList {
+
+      box-sizing: border-box;
+      background-size: contain;
+      width: 30vmax;
+  }
+
+  .course_container img {
+      max-width: 35vw;
+      box-shadow: 15px 15px 0px hsla(347, 87%, 24%, 1),
+          -15px -15px 0px hsla(49, 100%, 82%, 0.95);
+      padding: 0.1em;
+
+      margin: .4em 1em;
+  }
+
+  .course_section h2 {
+      font-size: 2em;
+      color: rgb(196, 150, 66);
+      ;
+      font-family: 'Rozha One',
+          serif;
+      font-weight: lighter;
+
+      text-align: center;
+      padding: .8em;
+
+  }
+
+  .mostPopular {
+      margin-left: 1.2em;
+      font-size: 2em;
+      font-family: fantasy;
+      font-family: 'Rozha One',
+          serif;
+      text-shadow: 0px 18px 0px hsla(0, 59%, 41%, 0.95),
+          0px 36px 0px hsla(0, 59%, 41%, 0.6),
+          0px -18px 0px hsla(0, 59%, 41%, 0.95),
+          0px -36px 0px hsla(0, 59%, 41%, 0.6);
+
+      font-weight: lighter;
+      color: hsla(347, 87%, 24%, 1);
+      text-align: left;
+  }
+
+  .other_courses {
+      text-align: center;
+      font-size: 1.2em;
+      color: rgb(196, 150, 66);
+      font-weight: lighter;
+      margin: 0.4em;
+      transition: 1s all ease-in-out;
+      font-family: 'Roboto',
+          sans-serif;
+  }
+
+  .other_courses:hover {
+      color: hsla(347, 87%, 24%, 1);
+      cursor: pointer;
+  }
+
+
+
+  hr {
+      color: hsla(347, 87%, 24%, 1);
+  }
+
+  @keyframes shakeIt {
+      0% {
+          transform-origin: top center;
+          transform: rotate(0deg);
+      }
+
+
+      12% {
+          transform-origin: top center;
+          transform: rotate(2deg);
+      }
+
+
+      36% {
+          transform-origin: top center;
+          transform: rotate(-2deg);
+      }
+
+      50% {
+          transform-origin: top center;
+          transform: rotate(0deg);
+      }
+  }
+
+  .wine_footer {
+      position: sticky;
+      bottom: 0px;
+      background-color: rgba(56, 1, 13, 1);
+      width: 100vw;
+
+      display: flex;
+      flex-direction: row;
+      color: rgb(196, 150, 66);
+      justify-content: space-around;
+      font-size: 1em;
+      padding: 2em;
+      font-family: 'Roboto',
+          sans-serif;
+      flex-wrap: wrap;
+  }
+
+  .footer_social_flex {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-top: .5em;
+  }
+
+  .footer_social img {
+      max-width: 2em;
+      padding: 0.2em;
+      filter: opacity(80%);
+
+
+
+  }

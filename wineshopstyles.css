@@ -47,8 +47,6 @@
           8px 8px 0px rgb(196, 150, 66);
       display: block;
       width: 100%;
-
-
   }
 
   #logo img {
@@ -139,7 +137,7 @@
   .about_container {
       position: relative;
       text-align: left;
-      
+
 
   }
 
@@ -190,9 +188,9 @@
       color: hsla(347, 87%, 24%, 1)
   }
 
-  .about_pic{
+  .about_pic {
       width: 100%;
-      
+
 
   }
 
